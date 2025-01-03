@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensign Font Showcase</title>
+    <style>
+        @font-face {
+            font-family: 'Clypto';
+            src: url('fonts/Clypto-Regular.eot');
+            src: url('fonts/Clypto-Regular.eot?#iefix') format('embedded-opentype'),
+                 url('fonts/Clypto-Regular.woff2') format('woff2'),
+                 url('fonts/Clypto-Regular.woff') format('woff'),
+                 url('fonts/Clypto-Regular.ttf') format('truetype'),
+                 url('fonts/Clypto-Regular.svg#Clypto-Regular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Cheiro';
+            src: url('fonts/Cheiro-Regular.eot');
+            src: url('fonts/Cheiro-Regular.eot?#iefix') format('embedded-opentype'),
+                 url('fonts/Cheiro-Regular.woff2') format('woff2'),
+                 url('fonts/Cheiro-Regular.woff') format('woff'),
+                 url('fonts/Cheiro-Regular.ttf') format('truetype'),
+                 url('fonts/Cheiro-Regular.svg#Cheiro-Regular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Cheiro', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #121212;
+            color: #e0e0e0;
+            box-sizing: border-box;
+        }
+        h1, p {
+            margin-bottom: 10px;
+        }
+        textarea {
+            width: calc(100% - 40px); /* Subtract padding from width to prevent overflow */
+            height: 100px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            padding: 10px;
+            background: #333;
+            border: none;
+            color: #fff;
+            font-family: inherit;
+        }
+        #textClypto {
+            font-family: 'Clypto';
+        }
+        #textCheiro {
+            font-family: 'Cheiro';
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: 'Clypto';">Clypto</h1>
+    <textarea id="textClypto" placeholder="Type here to see Clypto font..."></textarea>
+
+    <h1 style="font-family: 'Cheiro';">Cheiro</h1>
+    <textarea id="textCheiro" placeholder="Type here to see Cheiro font..."></textarea>
+</body>
+</html>
